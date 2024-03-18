@@ -1,0 +1,56 @@
+@mixin link-style{
+    text-decoration: none;
+                    color: #A6A8AD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+}
+@mixin blue-btn{
+    width: 125px;
+                height: 56px;
+                flex-shrink: 0;
+                border-radius: 8px;
+                background: #03F;
+                
+                border: #03F;
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                    width: 61px;    
+                }
+}
+@mixin descr-style{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+@mixin subtitle-style{
+    color: #FFF;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 128.571% */
+}
+@mixin title-style{
+    color: #A6A8AD;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.12px;
+text-transform: uppercase;
+}
