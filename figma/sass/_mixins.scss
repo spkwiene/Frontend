@@ -1,0 +1,28 @@
+@mixin clear-btn{
+                width: 183px;
+				height: 43px;
+				flex-shrink: 0;
+				border-radius: 4px;
+				border: 1px solid #FFF;
+				background-color: #ffffff00;
+				a{
+					width: 121px;
+					color: #FFF;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 21px; /* 131.25% */
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					text-decoration: none;
+				}
+}
+@mixin foot-title{
+	color: #676770;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 111.111% */
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
